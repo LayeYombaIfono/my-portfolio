@@ -1,0 +1,156 @@
+    1  git -l
+    2  [200~sudo apt install git
+    3  ~sudo apt install git
+    4  sudo apt install git
+    5  apt-get update
+    6  --fix-missing
+    7  exit
+    8  code .
+    9  cat .gitconfig
+   10  cls
+   11  ll
+   12  clear
+   13  cd Bureau/
+   14  cd test/
+   15  code .
+   16  exit
+   17  git status
+   18  git log
+   19  cd homework-1/
+   20  ls
+   21  git status
+   22  cls
+   23  clear
+   24  git status
+   25  ls
+   26  git add .
+   27  git status
+   28  clear
+   29  git commit -m "1st commit, submitting computer science assignment 1"
+   30  git status
+   31  git log
+   32  git push -u origin main
+   33  git branch
+   34  git push -u origin
+   35  clear
+   36  cd ..
+   37  mkdir homework-2
+   38  git status
+   39  git log
+   40  ls
+   41  clear
+   42  git log
+   43  git status
+   44  clear
+   45  git add .
+   46  git status
+   47  git commit -m "2st commit, submitting computer science assignment 2"
+   48  git push -u origin
+   49  ls
+   50  cd devops/
+   51  cd homeworks/
+   52  code .
+   53  ls
+   54  cd homework-1/
+   55  who
+   56  man
+   57  man man
+   58  man diff
+   59  man call
+   60  call
+   61  man cal
+   62  cal
+   63  sudo apt install call
+   64  man call
+   65  clear
+   66  man man
+   67  man date MM
+   68  ls -l Hello
+   69  man -k printf
+   70  clear
+   71  --ascii
+   72  -u --update
+   73  --update
+   74  man --update
+   75  man date
+   76  git branch
+   77  git checkout my-branch 
+   78  git branch 
+   79  git branch --unset-upstream
+   80  git branch
+   81  ls
+   82  git push origin my-branch 
+   83  git branch 
+   84  clear
+   85  git checkout main
+   86  git branch 
+   87  exit
+   88  cd ..
+   89  cd 
+   90  cd ..
+   91  history
+   92  ls
+   93  cd home/
+   94  ls
+   95  ls -a
+   96  man cal
+   97  cal 2028
+   98  sudo apt install ncal
+   99  cal 2028 > calendar-2028.txt
+  100  ls
+  101  cat calendar-2028.txt 
+  102  clear
+  103  man date
+  104  date -d="2 years ago"
+  105  date --date="2 years ago"
+  106  -d --date="3 years ago"
+  107  d --date="3 years ago"
+  108  date --date="3 years ago"
+  109  man last
+  110  last -f
+  111  last -F
+  112  last > last-logins-complet.txt
+  113  cat last-logins-complet.txt 
+  114  clear
+  115  man hostory
+  116  man history
+  117  coleur="red"
+  118  $coleur
+  119  colour ="red"
+  120  color="red"
+  121  echo $color
+  122  color="blue"
+  123  echo $colour
+  124  echo $color
+  125  printenv > env.txt
+  126  cat env.txt 
+  127  echo $USER
+  128  export color
+  129  printenv color
+  130  printenv > env-new.txt
+  131  cat env-new.txt 
+  132  diff env.txt env-new.txt 
+  133  ls
+  134  unset color
+  135  printenv
+  136  clear
+  137  touch first-file
+  138  ls
+  139  ls /temp/
+  140  ls /temp
+  141  ls temp
+  142  ls tmp
+  143  cp first-file /tmp
+  144  ls
+  145  mkdir first-directory
+  146  mv first-file first-directory/
+  147  ls
+  148  ls first-directory/
+  149  mv first-directory /tmp/
+  150  ls tmp
+  151  ls
+  152  rm /tmp/first-file 
+  153  rm /tmp/first-directory/
+  154  rm -r /tmp/first-directory/
+  155  clear
+  156  history > homework-1-command.txt
