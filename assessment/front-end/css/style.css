@@ -10,7 +10,7 @@
 :root {
     --firstColor: #00bcf7;
     --facebookColor: #214ac3;
-    --secondColor: #000e12;
+    --secondColor: #200e21;
     --thirthColor : #ffffff;
 }
 
@@ -67,7 +67,9 @@ body{
 .title {
     text-transform: capitalize;
     font-size: 2.5rem;
-    color: var(--secondColor);
+    color: var(--thirthColor);
+    background-color: var(--secondColor);
+    padding: 0 6px ;
 }
 
 .section-login {
