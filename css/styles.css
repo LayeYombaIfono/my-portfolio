@@ -1,0 +1,55 @@
+/* start global */
+:root {
+  --mainBackground: #0d1b2a;
+  --secondaryBackground: #e0e1dd;
+  --textAndBlocks: #415a77;
+  --hoverButtons: #00f6d2;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html body {
+  background-color: var(--mainBackground);
+  color: var(--textAndBlocks);
+  font-optical-sizing: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Orbitron", sans-serif;
+  font-weight: 700;
+}
+
+p,
+a, 
+ul,
+strong,
+span,
+li,
+input,
+button,
+textarea,
+div,
+header,
+section,
+footer,
+nav,
+figure,
+figcaption,
+blockquote, 
+cite,
+address
+ {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+/* End global */
