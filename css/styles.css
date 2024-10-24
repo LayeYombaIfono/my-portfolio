@@ -1,3 +1,5 @@
+/* @import url("media.css"); */
+
 /* start global */
 :root {
   --mainBackground: #0d1b2a;
@@ -10,6 +12,16 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  line-height: 3rem;
+}
+
+body {
+  font-size: 1.6rem;
+  text-align: center;
 }
 
 html body {
@@ -28,8 +40,17 @@ h6 {
   font-weight: 700;
 }
 
+a {
+  text-decoration: none;
+}
+
+svg {
+  width: 18px;
+  height: 18px;
+}
+
 p,
-a, 
+a,
 ul,
 span,
 li,
@@ -43,12 +64,220 @@ footer,
 nav,
 figure,
 figcaption,
-blockquote, 
+blockquote,
 cite,
-address
- {
-    font-family: "Titillium Web", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+address {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 /* End global */
+
+/* Start Style header */
+#header {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background-color: #fff;
+  padding: 0.4rem 0;
+  width: 100%;
+}
+
+#header .logo a {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--textAndBlocks);
+  text-decoration: none;
+  text-transform: uppercase;
+  display: block;
+  font-family: "Orbitron", sans-serif;
+  letter-spacing: 2px;
+  transition: all 0.3s ease-in-out;
+}
+
+#header .logo a:hover {
+  color: var(--mainBackground);
+}
+
+#header .menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 8px;
+}
+
+.menu li {
+  padding: 0 0.5rem;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: var(--textAndBlocks);
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  transition: all 0.3s ease-in-out;
+}
+
+.menu li a:hover {
+  color: var(--mainBackground);
+  border-bottom: 1px solid var(--textAndBlocks);
+}
+
+.navbar {
+  display: none;
+}
+
+.social a:hover {
+  border-bottom: none !important;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 8px;
+}
+
+/* Style berger */
+#header .berger {
+  /* background-color: var(--mainBackground); */
+  padding-right: 5px;
+  width: 35px;
+  height: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+.berger .bar {
+  margin: 5px;
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-color: var(--mainBackground);
+}
+
+/* .berger .bar::after, .berger .bar::before{
+  display: block;
+  content: "";
+  width: 22px;
+  height: 3px;
+  background-color: var(--mainBackground);
+  position: absolute;
+  
+}
+
+.berger .bar::before{
+  top: 0!important;
+}
+
+.berger .bar::after{
+  bottom: 0!important;
+} */
+
+/* End Style header */
+
+/* Start Style section */
+
+.list-unstyled {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  margin: 0 auto;
+}
+.container {
+  padding: 1rem 2rem;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.grid {
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+
+.grid-item {
+  width: 100%;
+}
+
+/* Section hero */
+.hero .grid {
+  /* background-color: #0d1b2a; */
+  display: flex;
+  align-items: center;
+  flex-direction: column-reverse;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.hero-img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.hero-img img {
+  width: 100%;
+  height: 450px;
+  padding: 0;
+  border-radius: 6px;
+  background: linear-gradient(
+    180deg,
+    rgba(2, 0, 36, 0.9500175070028011) 0%,
+    rgba(65, 90, 119, 1) 35%,
+    rgba(65, 90, 119, 0.8603816526610644) 100%
+  );
+}
+
+.hero .hero-text {
+  width: 100%;
+}
+
+.hero-text .hero-title {
+  padding-bottom: 8px;
+  font-size: 3rem;
+  line-height: 4rem;
+}
+.hero-text .hero-title span {
+  color: var(--hoverButtons);
+  font-weight: 400;
+  font-size: 3.2rem;
+}
+
+.hero-text strong {
+  text-transform: uppercase;
+  padding: 20px 0px;
+}
+
+.hero-text strong span {
+  color: var(--hoverButtons);
+  font-weight: 400;
+}
+
+.hero-btn {
+  margin: 15px 0;
+  background-color: var(--hoverButtons);
+  color: var(--textAndBlocks);
+  padding: 6px 10px;
+  font-size: 1.2rem;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+  opacity: 0.7;
+}
+
+.hero-btn:hover {
+  opacity: 100;
+}
+/* End Style section */

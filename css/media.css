@@ -1,0 +1,139 @@
+:root {
+  --mainBackground: #0d1b2a;
+  --secondaryBackground: #e0e1dd;
+  --textAndBlocks: #415a77;
+  --hoverButtons: #00f6d2;
+}
+
+@media screen and (min-width: 895px) {
+  #body {
+    background-color: var(--mainBackground);
+  }
+
+  #header {
+    background-color: var(--mainBackground);
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+
+  #header .logo a {
+    font-size: 2rem;
+  }
+
+  #header .logo a:hover {
+    color: var(--hoverButtons);
+  }
+
+  .menu li {
+    padding: 0 0.7rem;
+  }
+
+  .menu li a {
+    font-size: 2rem;
+  }
+
+  .menu li a:hover {
+    color: var(--hoverButtons);
+  }
+
+  .navbar {
+    display: flex;
+  }
+
+  .social a svg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0.2rem;
+    background-color: var(--secondaryBackground) !important;
+    border-radius: 50%;
+    color: var(--textAndBlocks);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .social a svg:hover {
+    background-color: var(--hoverButtons) !important;
+    opacity: 0.8;
+  }
+
+  /* Style berger */
+  .berger {
+    display: none;
+  }
+
+  /* .main{
+    max-width: 100%;
+  } */
+
+  /* section hero */
+  .hero .grid {
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 15px;
+  }
+
+  .hero .hero-text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+    margin-right: 20px;
+  }
+
+  .hero-text .hero-title {
+    padding: 0;
+    text-transform: capitalize;
+    font-size: 5rem;
+    line-height: 8rem;
+  }
+
+  .hero-text .hero-title span {
+    color: var(--hoverButtons);
+    font-weight: 900;
+    font-size: 5.2rem;
+  }
+
+  .hero-text strong {
+    text-transform: capitalize;
+    padding: 10px 0 0 0;
+    font-size: 3rem;
+    color: var(--textAndBlocks);
+    opacity: 0.8;
+  }
+
+  .hero-text strong span {
+    color: var(--hoverButtons);
+    font-weight: 400;
+  }
+
+  .hero-btn {
+    margin: 0;
+    padding: 10px 15px;
+    font-size: 1.5rem;
+  }
+
+  .hero-img {
+    width: 40%;
+    margin-top: 20px;
+  }
+
+  .hero-img img {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+    background: linear-gradient(
+      180deg,
+      rgba(2, 0, 36, 0.9500175070028011) 0%,
+      rgba(65, 90, 119, 1) 35%,
+      rgba(65, 90, 119, 0.8603816526610644) 100%
+    );
+  }
+}
